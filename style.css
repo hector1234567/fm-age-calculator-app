@@ -184,7 +184,7 @@ hr {
 
 @media (max-width: 819px) {
   form {
-    grid-template-columns: repeat(3, 16rem);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 3.2rem;
   }
 
@@ -212,6 +212,10 @@ hr {
 @media (max-width: 530px) {
   html {
     font-size: 40%;
+  }
+
+  main {
+    margin: 2rem;
   }
 }
 
