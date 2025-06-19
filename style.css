@@ -83,6 +83,7 @@ main {
   max-width: 84rem;
   padding: 5.6rem;
   border-radius: 2.4rem 2.4rem 20rem 2.4rem;
+  margin: 4.1rem;
 }
 
 form {
@@ -158,6 +159,10 @@ form button {
   align-items: center;
 }
 
+form button img {
+  width: 4.4rem;
+}
+
 hr {
   border-top: 0.13rem solid var(--Grey-200);
   margin-bottom: calc(9.6rem / 2);
@@ -175,4 +180,55 @@ hr {
 .result strong {
   font-weight: inherit;
   color: var(--Purple-500);
+}
+
+@media (max-width: 819px) {
+  form {
+    grid-template-columns: repeat(3, 16rem);
+    row-gap: 3.2rem;
+  }
+
+  form button {
+    margin-right: auto;
+  }
+
+  hr {
+    margin-bottom: calc(9.6rem / 2 + 3.2rem);
+  }
+}
+
+@media (max-width: 730px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 530px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 440px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 25%;
+  }
 }
