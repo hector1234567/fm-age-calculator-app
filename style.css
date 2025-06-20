@@ -164,7 +164,7 @@ form button img {
 }
 
 hr {
-  border-top: 0.13rem solid var(--Grey-200);
+  border: 0.06rem solid var(--Grey-200);
   margin-bottom: calc(9.6rem / 2);
 }
 
