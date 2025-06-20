@@ -2,13 +2,15 @@
   "name": "code",
   "version": "1.0.0",
   "description": "![Design preview for the Age calculator app coding challenge](preview.jpg)",
-  "main": "index.js",
   "scripts": {
-    "test": "vitest --run --reporter verbose"
+    "test": "vitest --run --reporter verbose",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel": "^2.15.2",
     "vitest": "^3.2.4"
   },
   "dependencies": {
