@@ -170,7 +170,7 @@ hr {
 
 .result {
   font-size: 10.4rem;
-  font-weight: bolder;
+  font-weight: 800;
   line-height: 110%;
   letter-spacing: -0.2rem;
   font-style: italic;
@@ -229,19 +229,19 @@ hr {
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 780px) {
   html {
     font-size: 55%;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 680px) {
   html {
     font-size: 45%;
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
   html {
     font-size: 40%;
   }
@@ -251,19 +251,19 @@ hr {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 460px) {
   html {
     font-size: 35%;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 402px) {
   html {
     font-size: 30%;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 345px) {
   html {
     font-size: 25%;
   }
